@@ -1,0 +1,45 @@
+.ItemsContainer{
+  max-width: 220px;
+  height: 300px;
+  background: black;
+  border-radius: 20px;
+  position: relative;
+  display: inline-block;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.ItemsContainer img{
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.ItemsContainer p{
+  width: 90%;
+  margin: auto;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 12px;
+}
+
+
+
+
+
+
+@media (max-width:900px) {
+  .ItemsContainer{
+    max-width: 200px;
+    height: 280px;
+    margin: 10px;
+  }
+  
+  .ItemsContainer p{
+    font-size: 12px;
+    width: 90%;
+    margin: auto;
+    color: whitesmoke;
+    text-align: center;
+  }
+}

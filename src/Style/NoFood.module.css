@@ -1,0 +1,17 @@
+.noFood{
+  width: 50%;
+  margin: auto;
+  position: relative;
+  padding: 0 10%;
+}
+
+.noFood img{
+border-radius: 20px;
+}
+
+.noFood h3{
+  position: absolute;
+  color: whitesmoke;
+  right: 150px;
+  top: 310px;
+}

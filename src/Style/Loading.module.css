@@ -1,0 +1,30 @@
+.cup{
+  width: 180px;
+  height: 140px;
+  border: 6px solid black;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  border-radius: 0 0 70px 70px;
+  /* background: url(); */
+  box-shadow: 0 0 0 6px #efb54a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cup p{
+  font-size: 20px;
+  text-align: center;
+}
+
+.handle{
+  height: 70px;
+  width: 40px;
+  background-color: transparent;
+  border: 6px solid black;
+  position: relative;
+  left: 60px;
+  top: -15px;
+  border-radius: 0 25px 80px 0;
+}

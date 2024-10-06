@@ -1,0 +1,30 @@
+.foodRecipe{
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.foodItemsList{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  flex-wrap: wrap;
+ padding: 0 5%;
+}
+
+.letters{
+  width: 80%;
+  margin: 40px auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width:900px) {
+  .foodItemsList{
+   padding: 0 10%;
+  }
+}

@@ -1,0 +1,32 @@
+.cover{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10%;
+  gap: 30px;
+}
+
+.cover .img{
+  flex-basis: 30%;
+  border-radius: 20px;
+}
+
+.cover .img img{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.cover .text{
+  flex-basis: 60%;
+}
+
+.cover .text span{
+  text-decoration: underline;
+}
+
+@media (max-width:950px) {
+  .cover{
+    flex-direction: column;
+  }
+}
