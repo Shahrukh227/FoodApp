@@ -38,6 +38,7 @@
     top: 0;
     right: -200px;
     transition: 0.5s;
+    z-index: 100;
   }
 
   .nav .show{
